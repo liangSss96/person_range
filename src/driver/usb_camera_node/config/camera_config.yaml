@@ -1,0 +1,12 @@
+# front cameras
+/camera/front:
+  device_name: /dev/video0 
+  publish_topic: /camera/front_left 
+  img_size: [752, 480]
+  fps: 30 
+  camera_type: normal
+  camera_model: pinhole
+  distortion_model: radtan
+  distortion_coeffs: [-0.2827194127325638, 0.07433133599948077, 0.0004437263089959797,-0.0005373178971205249,0]
+  intrinsics: [459.3801391263343, 458.3358524061085, 369.28412125423023, 247.4643914606113]
+

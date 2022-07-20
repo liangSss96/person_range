@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="base_info" type="base_info" name="base_info" output="screen">
+        <param name="topic_name" value="/front/image_raw"/>
+        <param name="loop_rate_hz" value="30"/>
+        <param name="img_save_path" value="$(find base_info)/../../img" />
+    </node>
+
+</launch>

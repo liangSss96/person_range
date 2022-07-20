@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cr</name>
+  <version>0.0.0</version>
+  <description>The cr package</description>
+
+  <maintainer email="ls@todo.todo">ls</maintainer>
+
+  <license>TODO</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>roslib</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>sensor_msgs</depend>
+  <!-- local depends-->>
+  <depend>enum</depend>
+  <depend>common_utils</depend>
+  <depend>base_structure</depend>
+  <depend>wind_zmq</depend>
+
+
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+
+</package>

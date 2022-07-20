@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="cr" type="cr" name="cr" output="screen">
+        <param name="img_topic" value="/front/image_raw"/>
+        <param name="img_topic1" value="/back/image_raw"/>
+        <param name="img_topic2" value="/left/image_raw"/>
+        <param name="img_topic3" value="/right/image_raw"/>
+        <param name="cr_detector_weight_path" value=" $(find cr)/../../weight/best.engine"/>
+    </node>
+
+</launch>
